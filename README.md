@@ -87,4 +87,3 @@ A brief overview of the main API endpoints:
 - `POST /api/bookings`: Create a new booking (Authentication required).
 
 For full details, please refer to the API documentation or the code.
-# booking-api-nodejs
