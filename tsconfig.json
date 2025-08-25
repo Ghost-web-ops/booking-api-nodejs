@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2020",                       // حدد إصدار JavaScript الذي سيتم ترجمة الكود إليه
+    "module": "commonjs",                      // النظام المستخدم في Node.js
+    "rootDir": "./src",                        // المجلد الذي يحتوي على ملفات TypeScript المصدرية
+    "outDir": "./dist",                        // المجلد الذي سيتم وضع ملفات JavaScript المترجمة فيه
+    "esModuleInterop": true,                   // يسمح بالتوافق بين أنواع مختلفة من الوحدات (مهم جداً)
+    "forceConsistentCasingInFileNames": true,  // يضمن أن تكون أسماء الملفات متناسقة
+
+    /* Strict Type-Checking Options */
+    "strict": true,                            // يفعل جميع خيارات التحقق الصارمة (أفضل ممارسة)
+    
+    /* Module Resolution Options */
+    "moduleResolution": "node",                // الطريقة التي يبحث بها عن الوحدات (أساسي لـ Node.js)
+    
+    /* Advanced Options */
+    "skipLibCheck": true                       // يتجاهل التحقق من ملفات التعريف في المكتبات الخارجية (يحل الكثير من المشاكل)
+  },
+  "include": ["src/**/*"]                      // حدد الملفات التي سيتم تضمينها في عملية الترجمة
+}
